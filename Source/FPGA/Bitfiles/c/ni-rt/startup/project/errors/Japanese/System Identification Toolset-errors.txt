@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification Toolset" displayname="System Identification Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification Toolset:  有効なモデルタイプを取得できませんでした。異なる次数を指定して再試行してください。このエラーが引き続き発生する場合は、異なる推定メソッドを試してください
+</nierror>
+<nierror code="-41352">
+System Identification Toolset:  無効な入力信号。入力信号がステップ信号およびステップ応答信号であることを確認してください
+</nierror>
+<nierror code="-41351">
+System Identification Toolset:  入力信号の長さが短すぎるため、推定できません。長さが20より大きいことを確認してください。入力信号が初期部分を含む場合は、初期部分の長さが5より大きいことを確認してください。
+</nierror>
+<nierror code="-41342">
+System Identification Toolset:  システムモデルは離散モデルでなければなりません。
+</nierror>
+<nierror code="-41341">
+System Identification Toolset:  システムモデルは継続モデルでなければなりません。
+</nierror>
+<nierror code="-41333">
+System Identification Toolset:  推定した伝達関数モデルの次数は指定した次数と一致しません。推定したモデルの次数を減らすために許容範囲の設定を調整する必要があります。
+</nierror>
+<nierror code="-41332">
+System Identification Toolset:  伝達関数の分母の次数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-41331">
+System Identification Toolset:  システム同定ツールキットはスタティックゲインを伝達関数ゲインに変換します。
+</nierror>
+<nierror code="-41329">
+System Identification Toolset:  ステート数は大きすぎます。入力データの長さを増やすか、ステートの数を減らします。
+</nierror>
+<nierror code="-41328">
+System Identification Toolset:  ステートスペースモデルのA、B、C、D、とK係数の次元は一貫していません。
+</nierror>
+<nierror code="-41327">
+System Identification Toolset:  ステートスペースモデルのD係数は空です。
+</nierror>
+<nierror code="-41326">
+System Identification Toolset:  ステートスペースモデルのC係数は空です。
+</nierror>
+<nierror code="-41325">
+System Identification Toolset:  ステートスペースモデルのB係数は空です。
+</nierror>
+<nierror code="-41324">
+System Identification Toolset:  ステートスペースモデルのA係数は空です。
+</nierror>
+<nierror code="-41323">
+System Identification Toolset:  Kalman gain matrixのサイズは[ステート数] x [入力チャンネル数]と一致していなければいけません。
+</nierror>
+<nierror code="-41322">
+System Identification Toolset:  initial statesの次元がnumber of statesと等しくなければなりません。
+</nierror>
+<nierror code="-41321">
+System Identification Toolset:  ステートスペースモデルのステート数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41319">
+System Identification Toolset:  零-極点ゲインモデルの極は空ではいけません。
+</nierror>
+<nierror code="-41318">
+System Identification Toolset:  零-極点ゲインモデルのゼロは空ではいけません。
+</nierror>
+<nierror code="-41317">
+System Identification Toolset:  時間定数の最初の推定値と2次サブシステムの減衰比は、両方ともNaNあるいは両方とも正の値である必要があります。
+</nierror>
+<nierror code="-41316">
+System Identification Toolset:  伝達関数モデルの分子の次数は、モデルの分母の次数以下でなければなりません。
+</nierror>
+<nierror code="-41315">
+System Identification Toolset:  伝達関数モデルの分子係数は空ではいけません。
+</nierror>
+<nierror code="-41314">
+System Identification Toolset:  伝達関数モデルの分母係数は空ではいけません。
+</nierror>
+<nierror code="-41312">
+System Identification Toolset:  伝達関数モデルの分子の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41311">
+System Identification Toolset:  伝達関数モデルの分母の次数は0以上でなければなりません。 
+</nierror>
+<nierror code="-41306">
+System Identification Toolset:  線形モデルのA、B、F、C、とD係数の次元は一貫していません。
+</nierror>
+<nierror code="-41305">
+System Identification Toolset:  線形モデルのF係数は空ではいけません。
+</nierror>
+<nierror code="-41304">
+System Identification Toolset:  線形モデルのD係数は空ではいけません。
+</nierror>
+<nierror code="-41303">
+System Identification Toolset:  線形モデルのC係数は空ではいけません。
+</nierror>
+<nierror code="-41302">
+System Identification Toolset:  線形モデルのB係数は空ではいけません。
+</nierror>
+<nierror code="-41301">
+System Identification Toolset:  線形モデルのA係数は空ではいけません。 
+</nierror>
+<nierror code="-41293">
+System Identification Toolset:  delay(s)の最初の最初の推定値が無効です。推定値はNaNまたは正の値である必要があります。
+</nierror>
+<nierror code="-41292">
+System Identification Toolset:  遅延の数は入力信号数と一致しません。
+</nierror>
+<nierror code="-41291">
+System Identification Toolset:  最終次数は初期次数よりも大きくなければなりません。
+</nierror>
+<nierror code="-41290">
+System Identification Toolset:  次数の数は信号チャンネル数と一致しません。
+</nierror>
+<nierror code="-41289">
+System Identification Toolset:  線形モデルの遅延は0以上でなければなりません。
+</nierror>
+<nierror code="-41288">
+System Identification Toolset:  線形モデルの遅延はゼロより大きくする必要があります。
+</nierror>
+<nierror code="-41287">
+System Identification Toolset:  線形モデルF係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41286">
+System Identification Toolset:  線形モデルのD係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41285">
+System Identification Toolset:  線形モデルC係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41284">
+System Identification Toolset:  線形モデルのB係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41283">
+System Identification Toolset:  線形モデルのB係数の次数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41282">
+System Identification Toolset:  線形モデルのA係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41281">
+System Identification Toolset:  線形モデルのA係数の次数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41264">
+System Identification Toolset:  モデル係数が無効です。
+</nierror>
+<nierror code="-41263">
+System Identification Toolset:  配線したモデルタイプとsystem modelの必須条件が一致しないため、システム同定ツールキットはsystem model中のデータを回収できません。
+</nierror>
+<nierror code="-41262">
+System Identification Toolset:  モデル次数はモデル係数の次元と一貫していません。
+</nierror>
+<nierror code="-41261">
+System Identification Toolset:  システムモデルは定義されていません。
+</nierror>
+<nierror code="-41235">
+System Identification Toolset:  パラメータに指定した下限が無効です。
+</nierror>
+<nierror code="-41234">
+System Identification Toolset:  指定した値が上限と下限に一致しません。 
+</nierror>
+<nierror code="-41233">
+System Identification Toolset:  極の合計数は伝達関数モデルの分母の次数以下でなければなりません。極の合計数は基点での極と1次および2次サブシステムの極を含みます。
+</nierror>
+<nierror code="-41232">
+System Identification Toolset:  基点でのゼロの数は伝達関数モデルの分子の次数以下でなければなりません。
+</nierror>
+<nierror code="-41231">
+System Identification Toolset:  指定したゼロまたは極の数は0以上でなければなりません。
+</nierror>
+<nierror code="-41225">
+System Identification Toolset:  ユーザ定義のVIが生成する応答信号長は、刺激信号長とは異なります。
+</nierror>
+<nierror code="-41224">
+System Identification Toolset:  FRF加重の長さはFRF振幅とFRF位相の成分の長さと同じであるべきです。
+</nierror>
+<nierror code="-41223">
+System Identification Toolset:  FRF振幅とFRF位相の周波数成分は同じであるべきです。周波数成分の要素は負以外で昇順であるべきです。
+</nierror>
+<nierror code="-41222">
+System Identification Toolset:  FRF振幅とFRF位相の成分の長さは０より大きくお互いに同じであるべきです。
+</nierror>
+<nierror code="-41221">
+System Identification Toolset:  指定したインパルス応答の長さはゼロ以上である必要があります。
+</nierror>
+<nierror code="-41220">
+System Identification Toolset:  離散型のコントローラの係数は空でない必要があります。
+</nierror>
+<nierror code="-41219">
+System Identification Toolset:  刺激信号、応答信号および推定モデルに同じサンプリングレートがありません。
+</nierror>
+<nierror code="-41218">
+System Identification Toolset:  ブロックサイズは100よりも大きくなければなりません。
+</nierror>
+<nierror code="-41217">
+System Identification Toolset:  推定と検証に使用する信号チャンネルの数は等しくなければなりません。
+</nierror>
+<nierror code="-41216">
+System Identification Toolset:  不足しているデータのデータ指標は範囲外です。
+</nierror>
+<nierror code="-41215">
+System Identification Toolset:  confidenceファクタが0よりも大きくなければなりません。
+</nierror>
+<nierror code="-41214">
+System Identification Toolset:  選択されたチャンネルは範囲外です。
+</nierror>
+<nierror code="-41213">
+System Identification Toolset:  指定したsampling rate（サンプリングレート）が負またはゼロ、あるいは刺激信号のサンプリングレートと応答信号が互いに一致 しないかもしれません。
+</nierror>
+<nierror code="-41212">
+System Identification Toolset:  predictionステップはゼロではいけません。
+</nierror>
+<nierror code="-41211">
+System Identification Toolset:  基準値は0以上でなければなりません。
+</nierror>
+<nierror code="-41210">
+System Identification Toolset:  リファレンスマトリクスは方形マトリクスでなければなりません。リファレンスマトリクスの次元はシステムモデルの係数の数と一致していません。
+</nierror>
+<nierror code="-41209">
+System Identification Toolset:  周波数範囲が無効です。
+</nierror>
+<nierror code="-41208">
+System Identification Toolset:  ノイズ分散行列の次元はシステムモデルの次元と一致しません。
+</nierror>
+<nierror code="-41207">
+System Identification Toolset:  ノイズチャンネル数はシステムモデルの必要条件と一致しません。
+</nierror>
+<nierror code="-41206">
+System Identification Toolset:  信号チャンネル数はシステムモデルの必要条件と一致しません。
+</nierror>
+<nierror code="-41205">
+System Identification Toolset:  number of frequency binは0より大きくなければなりません。
+</nierror>
+<nierror code="-41204">
+System Identification Toolset:  ウィンドウの長さは信号の長さよりも短く、ゼロより大きくなければなりません。
+</nierror>
+<nierror code="-41203">
+System Identification Toolset:  区分的点の値は固有であり昇順でなければなりません。
+</nierror>
+<nierror code="-41202">
+System Identification Toolset:  decimation factorは1よりも大きくなければなりません。
+</nierror>
+<nierror code="-41201">
+System Identification Toolset:  信号の長さは計算をするのに小さすぎるか、stimulusとresponse信号の長さが違います。
+</nierror>
+<nierror code="41201">
+System Identification Toolset:  1つ以上の信号入力が空です。
+</nierror>
+<nierror code="41202">
+System Identification Toolset:  伝達関数モデルに対して分母の次数は高く、これは正確ではない推定の原因になるかもしれません。
+</nierror>
+<nierror code="41203">
+System Identification Toolset:  伝達関数モデルに対して分子の次数は高く、これは正確ではない推定の原因になるかもしれません。
+</nierror>
+</nidocument>

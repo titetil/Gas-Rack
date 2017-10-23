@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification Toolset" displayname="System Identification Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification Toolset:  Es konnte kein gültiger Modelltyp ermittelt werden. Geben Sie andere Ordnungen an und versuchen Sie es erneut. Wenn dieser Fehler erneut auftritt, arbeiten Sie mit einer anderen Art der Modellschätzung.
+</nierror>
+<nierror code="-41352">
+System Identification Toolset:  Ungültige Eingangssignale. Stellen Sie sicher, dass es sich um Schrittsignale und Schrittantwortsignale handelt.
+</nierror>
+<nierror code="-41351">
+System Identification Toolset:  Die Länge des Eingangssignals ist zu kurz für eine Schätzung. Stellen Sie sicher, dass die Länge mehr als 20 beträgt. Wenn das Eingangssignal einen Anfangsteil enthält, muss dessen Länge mehr als 5 sein.
+</nierror>
+<nierror code="-41342">
+System Identification Toolset:  Das Systemmodell muss diskret sein.
+</nierror>
+<nierror code="-41341">
+System Identification Toolset:  Das Systemmodell muss kontinuierlich sein.
+</nierror>
+<nierror code="-41333">
+System Identification Toolset:  Die Ordnungen des geschätzten Übertragungsfunktionsmodells sind nicht konsistent mit den angegebenen Ordnungen. Passen Sie die Toleranzeinstellungen an, um die geschätzten Modellordnungen zu reduzieren.
+</nierror>
+<nierror code="-41332">
+System Identification Toolset:  Die Ordnung des Nenners in der Übertragungsfunktion muss größer Null sein.
+</nierror>
+<nierror code="-41331">
+System Identification Toolset:  Das System Identification Toolkit kann statische nicht in Übertragungsfunktions-Verstärkung umwandeln.
+</nierror>
+<nierror code="-41329">
+System Identification Toolset:  Die Anzahl der Zustände ist zu groß. Erhöhen Sie die Länge der Eingangsdaten oder verringern Sie die Anzahl der Zustände.
+</nierror>
+<nierror code="-41328">
+System Identification Toolset:  Die Dimensionen der A-, B-, C-, D- und K-Koeffizienten im Zustandsraum-Modell sind inkonsistent.
+</nierror>
+<nierror code="-41327">
+System Identification Toolset:  Die D-Koeffizienten im Zustandsraum-Modell dürfen nicht leer sein.
+</nierror>
+<nierror code="-41326">
+System Identification Toolset:  Die C-Koeffizienten im Zustandsraum-Modell dürfen nicht leer sein.
+</nierror>
+<nierror code="-41325">
+System Identification Toolset:  Die B-Koeffizienten im Zustandsraum-Modell dürfen nicht leer sein.
+</nierror>
+<nierror code="-41324">
+System Identification Toolset:  Die A-Koeffizienten im Zustandsraum-Modell dürfen nicht leer sein.
+</nierror>
+<nierror code="-41323">
+System Identification Toolset:  Die Größe der Kalman-Gain-Matrix muss gleich [Anzahl der Zustände] x [Anzahl der Eingangskanäle] sein.
+</nierror>
+<nierror code="-41322">
+System Identification Toolset:  Die Dimension der Anfangszustände muss gleich der Anzahl der Zustände sein.
+</nierror>
+<nierror code="-41321">
+System Identification Toolset:  Die Anzahl der Zustände im Zustandsraum-Modell muss größer als Null sein.
+</nierror>
+<nierror code="-41319">
+System Identification Toolset:  Die Polstellen im Polstellen-Nullstellen-Modell können nicht leer sein.
+</nierror>
+<nierror code="-41318">
+System Identification Toolset:  Die Nullstellen im Polstellen-Nullstellen-Modell können nicht leer sein.
+</nierror>
+<nierror code="-41317">
+System Identification Toolset:  Die Anfangsschätzung der Zeitkonstante und das Dämpfungsverhältnis des Subsystems zweiter Ordnung müssen NaN oder ein positiver Wert sein.
+</nierror>
+<nierror code="-41316">
+System Identification Toolset:  Die Ordnung des Zählers im Übertragungsfunktionsmodell muss kleiner oder gleich der Ordnung des Nenners im Modell sein.
+</nierror>
+<nierror code="-41315">
+System Identification Toolset:  Die Zähler-Koeffizienten im Modell der Übertragungsfunktion können nicht leer sein.
+</nierror>
+<nierror code="-41314">
+System Identification Toolset:  Die Nenner-Koeffizienten im Modell der Übertragungsfunktion können nicht leer sein.
+</nierror>
+<nierror code="-41312">
+System Identification Toolset:  Die Ordnung des Zählers im Übertragungsfunktionsmodell muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-41311">
+System Identification Toolset:  Die Ordnung des Nenners im Übertragungsfunktionsmodell muss größer oder gleich 0 sein. 
+</nierror>
+<nierror code="-41306">
+System Identification Toolset:  Die Dimensionen der A-, B-, F-, C- und D-Koeffizienten im linearen Modell sind inkonsistent.
+</nierror>
+<nierror code="-41305">
+System Identification Toolset:  Die F-Koeffizienten im linearen Modell können nicht leer sein.
+</nierror>
+<nierror code="-41304">
+System Identification Toolset:  Die D-Koeffizienten im linearen Modell können nicht leer sein.
+</nierror>
+<nierror code="-41303">
+System Identification Toolset:  Die C-Koeffizienten im linearen Modell können nicht leer sein.
+</nierror>
+<nierror code="-41302">
+System Identification Toolset:  Die B-Koeffizienten im linearen Modell können nicht leer sein.
+</nierror>
+<nierror code="-41301">
+System Identification Toolset:  Die A-Koeffizienten im linearen Modell können nicht leer sein. 
+</nierror>
+<nierror code="-41293">
+System Identification Toolset:  Die Anfangsschätzung für 'Verzögerung (s)' ist ungültig. Die Schätzung muss NaN oder ein positiver Wert sein.
+</nierror>
+<nierror code="-41292">
+System Identification Toolset:  Die Anzahl der Verzögerungen entspricht nicht der Anzahl der Eingangssignale.
+</nierror>
+<nierror code="-41291">
+System Identification Toolset:  Die Endordnung muss größer sein als die anfängliche Ordnung.
+</nierror>
+<nierror code="-41290">
+System Identification Toolset:  Die Anzahl der Ordnungen passt nicht zu der Anzahl der Signalkanäle.
+</nierror>
+<nierror code="-41289">
+System Identification Toolset:  Die Verzögerung im linearen Modell muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-41288">
+System Identification Toolset:  Die Verzögerung im linearen Modell muss größer als Null sein.
+</nierror>
+<nierror code="-41287">
+System Identification Toolset:  Die Ordnung der F-Koeffizienten im linearen Modell muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41286">
+System Identification Toolset:  Die Ordnung der D-Koeffizienten im linearen Modell muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41285">
+System Identification Toolset:  Die Ordnung der C-Koeffizienten im linearen Modell muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41284">
+System Identification Toolset:  Die Ordnung der B-Koeffizienten im linearen Modell muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41283">
+System Identification Toolset:  Die Ordnung der B-Koeffizienten im linearen Modell muss größer als Null sein.
+</nierror>
+<nierror code="-41282">
+System Identification Toolset:  Die Ordnung der A-Koeffizienten im linearen Modell muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41281">
+System Identification Toolset:  Die Ordnung der A-Koeffizienten im linearen Modell muss größer als Null sein.
+</nierror>
+<nierror code="-41264">
+System Identification Toolset:  Die Modellkoeffizienten sind ungültig.
+</nierror>
+<nierror code="-41263">
+System Identification Toolset:  Das System Identification Toolkit kann die Daten in 'Systemmodell' nicht abrufen, da der verbundene Modelltyp nicht mit dem 'Systemmodell' kompatibel ist.
+</nierror>
+<nierror code="-41262">
+System Identification Toolset:  Die Modellordnungen sind gegenüber den Dimensionen der Modellkoeffizienten inkonsistent.
+</nierror>
+<nierror code="-41261">
+System Identification Toolset:  Das Systemmodell ist nicht definiert.
+</nierror>
+<nierror code="-41235">
+System Identification Toolset:  Die für die Parameter angegebene Untergrenze ist ungültig.
+</nierror>
+<nierror code="-41234">
+System Identification Toolset:  Die angegebenen Werte entsprechen nicht den Ober- und Untergrenzwerten. 
+</nierror>
+<nierror code="-41233">
+System Identification Toolset:  Die Gesamtanzahl der Polstellen muss kleiner als die Nennerordnung des Übertragungsfunktionsmodells sein. Die Gesamtanzahl der Polstellen umfasst Polstellen am Koordinatenursprung und Polstellen der Subsysteme erster und zweiter Ordnung.
+</nierror>
+<nierror code="-41232">
+System Identification Toolset:  Die Anzahl der Nullstellen am Koordinatenursprung muss kleiner als die Zählerordnung des Übertragungsfunktionsmodells sein.
+</nierror>
+<nierror code="-41231">
+System Identification Toolset:  Die Anzahl der angegebenen Null- oder Polstellen muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41225">
+System Identification Toolset:  Die Länge des vom benutzerdefinierten VI erzeugten Antwortsignals unterscheidet sich von der Länge des Erregersignals.
+</nierror>
+<nierror code="-41224">
+System Identification Toolset:  Die Länge der FRF-Gewichtung muss gleich der Längen der Anteile von FRF-Betrag und FRF-Phase sein.
+</nierror>
+<nierror code="-41223">
+System Identification Toolset:  Die Frequenzanteile von FRF-Betrag und FRF-Phase müssen identisch sein. Die Elemente der Frequenzanteile müssen positiv und aufsteigend sein.
+</nierror>
+<nierror code="-41222">
+System Identification Toolset:  Die Längen der Anteile von FRF-Betrag und FRF-Phase müssen identisch und größer als 0 sein.
+</nierror>
+<nierror code="-41221">
+System Identification Toolset:  Die angegebene Länge der Pulsantwort muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-41220">
+System Identification Toolset:  Die Koeffizienten des diskreten Controllers dürfen nicht leer sein.
+</nierror>
+<nierror code="-41219">
+System Identification Toolset:  Erregersignal, Antwortsignal und das geschätzte Modell haben nicht die gleichen Abtastraten.
+</nierror>
+<nierror code="-41218">
+System Identification Toolset:  Die Blockgröße muss größer als 100 sein.
+</nierror>
+<nierror code="-41217">
+System Identification Toolset:  Die Anzahl der Signalkanäle, die für Schätzung und Validierung verwendet wird, muss identisch sein.
+</nierror>
+<nierror code="-41216">
+System Identification Toolset:  Der Datenindex zur Auswahl fehlender Daten liegt ausserhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-41215">
+System Identification Toolset:  Der Konfidenzfaktor muss größer als 0 sein.
+</nierror>
+<nierror code="-41214">
+System Identification Toolset:  Der ausgewählte Kanal liegt außerhalb des zulässigen Bereiches.
+</nierror>
+<nierror code="-41213">
+System Identification Toolset:  Die angegebene 'Abtastrate' ist 0 oder negativ, oder die Abtastraten von Erregersignal und Antwortsignal stimmen nicht überein.
+</nierror>
+<nierror code="-41212">
+System Identification Toolset:  Die Prognoseschritt kann nicht Null sein.
+</nierror>
+<nierror code="-41211">
+System Identification Toolset:  Der Referenzwert muss größer als 0 sein.
+</nierror>
+<nierror code="-41210">
+System Identification Toolset:  Die Referenzmatrix muss eine Quadratmatrix sein. Die Dimensionen der Referenzmatrix entsprechen nicht der Anzahl der Koeffizienten des Systemmodells.
+</nierror>
+<nierror code="-41209">
+System Identification Toolset:  Der Frequenzbereich ist ungültig.
+</nierror>
+<nierror code="-41208">
+System Identification Toolset:  Die Dimensionen der Rausch-Varianzmatrix passt nicht zu den Dimensionen des Systemmodells.
+</nierror>
+<nierror code="-41207">
+System Identification Toolset:  Die Anzahl der Rauschkanäle entspricht nicht den Anforderungen des Systemmodells.
+</nierror>
+<nierror code="-41206">
+System Identification Toolset:  Die Anzahl der Signalkanäle entspricht nicht den Anforderungen des Systemmodells.
+</nierror>
+<nierror code="-41205">
+System Identification Toolset:  Die Anzahl der Frequenzteilungen muss größer 0 sein.
+</nierror>
+<nierror code="-41204">
+System Identification Toolset:  Die Fenstergröße muss kleiner als die Signallänge und größer als Null sein.
+</nierror>
+<nierror code="-41203">
+System Identification Toolset:  Die Werte der Teilpunkte müssen eindeutig sein und in aufsteigender Ordnung vorliegen.
+</nierror>
+<nierror code="-41202">
+System Identification Toolset:  Der Dezimierungsfaktor muss größer als Eins sein.
+</nierror>
+<nierror code="-41201">
+System Identification Toolset:  Die Signallänge ist für die Berechnung zu klein oder Erregungs- und Antwortsignal haben nicht die gleiche Länge.
+</nierror>
+<nierror code="41201">
+System Identification Toolset:  Wenigstens einer der Signaleingänge ist leer.
+</nierror>
+<nierror code="41202">
+System Identification Toolset:  Die Nennerordnung ist zu groß für das Übertragungsfunktionsmodell. Dies kann zu einer ungenauen Schätzung führen.
+</nierror>
+<nierror code="41203">
+System Identification Toolset:  Die Zählerordnung ist zu groß für das Übertragungsfunktionsmodell. Dies kann zu einer ungenauen Schätzung führen.
+</nierror>
+</nidocument>
