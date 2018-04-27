@@ -115,6 +115,12 @@
 		<Item Name="Data2StatID.vi" Type="VI" URL="../PC subVIs/Data2StatID.vi"/>
 		<Item Name="Loaded Data Desired to Unique IDs.vi" Type="VI" URL="../PC subVIs/Loaded Data Desired to Unique IDs.vi"/>
 		<Item Name="Excel Formatting example.vi" Type="VI" URL="../PC subVIs/Excel Formatting example.vi"/>
+		<Item Name="New Stat Section with Sort.vi" Type="VI" URL="../PC subVIs/New Stat Section with Sort.vi"/>
+		<Item Name="TableScroller Original.vi" Type="VI" URL="../PC subVIs/TableScroller Original.vi"/>
+		<Item Name="Excel Protect Worksheets.vi" Type="VI" URL="../PC subVIs/Excel Protect Worksheets.vi"/>
+		<Item Name="Excel Write Full Data Set.vi" Type="VI" URL="../PC subVIs/Excel Write Full Data Set.vi"/>
+		<Item Name="Excel Stat Division Lines.vi" Type="VI" URL="../PC subVIs/Excel Stat Division Lines.vi"/>
+		<Item Name="Excel Open Worksheet.vi" Type="VI" URL="../PC subVIs/Excel Open Worksheet.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -479,10 +485,9 @@ DirectoryIndex index.htm
 			<Item Name="Helbako CAN.vi" Type="VI" URL="../CAN Communication/Helbako CAN.vi"/>
 			<Item Name="Hella CAN Diesel.vi" Type="VI" URL="../CAN Communication/Hella CAN Diesel.vi"/>
 			<Item Name="Hella CAN Gas.vi" Type="VI" URL="../CAN Communication/Hella CAN Gas.vi"/>
-			<Item Name="Hella CAN.vi" Type="VI" URL="../CAN Communication/Hella CAN.vi"/>
-			<Item Name="Hella Turbine Seed 2 Key.vi" Type="VI" URL="../CAN Communication/Hella Turbine Seed 2 Key.vi"/>
-			<Item Name="Hella CAN Turbine.vi" Type="VI" URL="../CAN Communication/Hella CAN Turbine.vi"/>
-			<Item Name="Hella CAN read.vi" Type="VI" URL="../CAN Communication/Hella CAN read.vi"/>
+			<Item Name="Hella BLDC Seed 2 Key.vi" Type="VI" URL="../CAN Communication/Hella BLDC Seed 2 Key.vi"/>
+			<Item Name="Hella BLDC CAN.vi" Type="VI" URL="../CAN Communication/Hella BLDC CAN.vi"/>
+			<Item Name="Hella BLDC CAN read.vi" Type="VI" URL="../CAN Communication/Hella BLDC CAN read.vi"/>
 		</Item>
 		<Item Name="Stream" Type="Folder">
 			<Item Name="Controls" Type="Folder">
@@ -3682,20 +3687,6 @@ DirectoryIndex index.htm
 			<Item Name="Command Cluster.ctl" Type="VI" URL="../TypeDef/Command Cluster.ctl"/>
 			<Item Name="Indirect FF PID Control.vi" Type="VI" URL="../RT subVIs/Indirect FF PID Control.vi"/>
 			<Item Name="Controller List.vi" Type="VI" URL="../TypeDef/Controller List.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Run_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"/>
-			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
-			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RIO Gas Rack" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
