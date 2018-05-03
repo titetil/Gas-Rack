@@ -21,16 +21,30 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="File Handling" Type="Folder">
+			<Item Name="Excel" Type="Folder">
+				<Item Name="Excel Protect Worksheets.vi" Type="VI" URL="../PC subVIs/Excel Protect Worksheets.vi"/>
+				<Item Name="Excel Write Full Data Set.vi" Type="VI" URL="../PC subVIs/Excel Write Full Data Set.vi"/>
+				<Item Name="Excel Stat Division Lines.vi" Type="VI" URL="../PC subVIs/Excel Stat Division Lines.vi"/>
+				<Item Name="Excel Open Worksheet.vi" Type="VI" URL="../PC subVIs/Excel Open Worksheet.vi"/>
+				<Item Name="Excel Write Headers.vi" Type="VI" URL="../PC subVIs/Excel Write Headers.vi"/>
+				<Item Name="Excel Open File.vi" Type="VI" URL="../PC subVIs/Excel Open File.vi"/>
+				<Item Name="Excel Write Profile.vi" Type="VI" URL="../PC subVIs/Excel Write Profile.vi"/>
+				<Item Name="Excel Create Printable Sheet.vi" Type="VI" URL="../PC subVIs/Excel Create Printable Sheet.vi"/>
+				<Item Name="Create Excel from Hidden.vi" Type="VI" URL="../PC subVIs/Create Excel from Hidden.vi"/>
+				<Item Name="Excel Secondary Header Prep.vi" Type="VI" URL="../PC subVIs/Excel Secondary Header Prep.vi"/>
+				<Item Name="Read Full Excel Sheet.vi" Type="VI" URL="../PC subVIs/Read Full Excel Sheet.vi"/>
+				<Item Name="Excel Add Printable Stat Lines.vi" Type="VI" URL="../PC subVIs/Excel Add Printable Stat Lines.vi"/>
+				<Item Name="Excel Handle Headers for Printable.vi" Type="VI" URL="../PC subVIs/Excel Handle Headers for Printable.vi"/>
+				<Item Name="Excel Parse Page Info.vi" Type="VI" URL="../PC subVIs/Excel Parse Page Info.vi"/>
+			</Item>
 			<Item Name="Remove Tildes (String).vi" Type="VI" URL="../RT subVIs/Remove Tildes (String).vi"/>
 			<Item Name="Remove Tildes (Array).vi" Type="VI" URL="../RT subVIs/Remove Tildes (Array).vi"/>
 			<Item Name="Excel File Query.vi" Type="VI" URL="../Excel/Excel File Query.vi"/>
-			<Item Name="Create Excel from Hidden.vi" Type="VI" URL="../PC subVIs/Create Excel from Hidden.vi"/>
 			<Item Name="Read Write Config.vi" Type="VI" URL="../PC subVIs/Read Write Config.vi"/>
 			<Item Name="Create Hidden Files.vi" Type="VI" URL="../RT subVIs/Create Hidden Files.vi"/>
 			<Item Name="Filepath 2 Hidden Files.vi" Type="VI" URL="../PC subVIs/Filepath 2 Hidden Files.vi"/>
 			<Item Name="Read Profile from Data File.vi" Type="VI" URL="../Excel/Read Profile from Data File.vi"/>
 			<Item Name="Merge Files.vi" Type="VI" URL="../PC subVIs/Merge Files.vi"/>
-			<Item Name="Read Full Excel Sheet.vi" Type="VI" URL="../PC subVIs/Read Full Excel Sheet.vi"/>
 			<Item Name="Remove empty data rows.vi" Type="VI" URL="../RT subVIs/Remove empty data rows.vi"/>
 			<Item Name="Read Data File.vi" Type="VI" URL="../Excel/Read Data File.vi"/>
 			<Item Name="Save Hidden Config.vi" Type="VI" URL="../RT subVIs/Save Hidden Config.vi"/>
@@ -114,13 +128,9 @@
 		<Item Name="UniqueID2StatID.vi" Type="VI" URL="../PC subVIs/UniqueID2StatID.vi"/>
 		<Item Name="Data2StatID.vi" Type="VI" URL="../PC subVIs/Data2StatID.vi"/>
 		<Item Name="Loaded Data Desired to Unique IDs.vi" Type="VI" URL="../PC subVIs/Loaded Data Desired to Unique IDs.vi"/>
-		<Item Name="Excel Formatting example.vi" Type="VI" URL="../PC subVIs/Excel Formatting example.vi"/>
 		<Item Name="New Stat Section with Sort.vi" Type="VI" URL="../PC subVIs/New Stat Section with Sort.vi"/>
 		<Item Name="TableScroller Original.vi" Type="VI" URL="../PC subVIs/TableScroller Original.vi"/>
-		<Item Name="Excel Protect Worksheets.vi" Type="VI" URL="../PC subVIs/Excel Protect Worksheets.vi"/>
-		<Item Name="Excel Write Full Data Set.vi" Type="VI" URL="../PC subVIs/Excel Write Full Data Set.vi"/>
-		<Item Name="Excel Stat Division Lines.vi" Type="VI" URL="../PC subVIs/Excel Stat Division Lines.vi"/>
-		<Item Name="Excel Open Worksheet.vi" Type="VI" URL="../PC subVIs/Excel Open Worksheet.vi"/>
+		<Item Name="Remove Duplicates.vi" Type="VI" URL="../PC subVIs/Remove Duplicates.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -382,7 +392,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.170</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.158</Property>
 		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;DeviceCode,758B;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3705,7 +3715,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{342DB4AB-677F-4EB0-9DB4-BBED39EC0773}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">61</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RIO Gas Rack.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/NI_AB_PROJECTNAME.rtexe</Property>
