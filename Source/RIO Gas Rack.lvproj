@@ -55,6 +55,7 @@
 			<Item Name="Data2Stats.vi" Type="VI" URL="../PC subVIs/Data2Stats.vi"/>
 			<Item Name="Evaluate Loaded Stats.vi" Type="VI" URL="../RT subVIs/Evaluate Loaded Stats.vi"/>
 			<Item Name="Find Stat Bundle Indexes.vi" Type="VI" URL="../PC subVIs/Find Stat Bundle Indexes.vi"/>
+			<Item Name="Handle Stat Sections.vi" Type="VI" URL="../PC subVIs/Handle Stat Sections.vi"/>
 			<Item Name="Target in Stat Table.vi" Type="VI" URL="../PC subVIs/Target in Stat Table.vi"/>
 		</Item>
 		<Item Name="TCP" Type="Folder">
@@ -98,14 +99,13 @@
 				<Item Name="Handle Parameter 3 Control.vi" Type="VI" URL="../RT subVIs/Handle Parameter 3 Control.vi"/>
 			</Item>
 			<Item Name="Table Handling" Type="Folder">
-				<Item Name="Find Relevant Stat Row.vi" Type="VI" URL="../PC subVIs/Find Relevant Stat Row.vi"/>
-				<Item Name="TableControl_1Column.vi" Type="VI" URL="../PC subVIs/TableControl_1Column.vi"/>
-				<Item Name="TableScroller.vi" Type="VI" URL="../PC subVIs/TableScroller.vi"/>
+				<Item Name="Full Table Handler.vi" Type="VI" URL="../PC subVIs/Full Table Handler.vi"/>
 				<Item Name="Data Table Handler.vi" Type="VI" URL="../PC subVIs/Data Table Handler.vi"/>
-				<Item Name="Highlight Bottom Entry.vi" Type="VI" URL="../RT subVIs/Highlight Bottom Entry.vi"/>
 				<Item Name="ProfilesTableControl.vi" Type="VI" URL="../PC subVIs/ProfilesTableControl.vi"/>
+				<Item Name="TableControl_1Column.vi" Type="VI" URL="../PC subVIs/TableControl_1Column.vi"/>
 			</Item>
 			<Item Name="Tab Handler.vi" Type="VI" URL="../PC subVIs/Tab Handler.vi"/>
+			<Item Name="Date 2 Sortable Date.vi" Type="VI" URL="../PC subVIs/Date 2 Sortable Date.vi"/>
 			<Item Name="SN Analyze.vi" Type="VI" URL="../PC subVIs/SN Analyze.vi"/>
 			<Item Name="SN Sort.vi" Type="VI" URL="../PC subVIs/SN Sort.vi"/>
 			<Item Name="SN Sort Data.vi" Type="VI" URL="../PC subVIs/SN Sort Data.vi"/>
@@ -129,8 +129,10 @@
 		<Item Name="Data2StatID.vi" Type="VI" URL="../PC subVIs/Data2StatID.vi"/>
 		<Item Name="Loaded Data Desired to Unique IDs.vi" Type="VI" URL="../PC subVIs/Loaded Data Desired to Unique IDs.vi"/>
 		<Item Name="New Stat Section with Sort.vi" Type="VI" URL="../PC subVIs/New Stat Section with Sort.vi"/>
-		<Item Name="TableScroller Original.vi" Type="VI" URL="../PC subVIs/TableScroller Original.vi"/>
 		<Item Name="Remove Duplicates.vi" Type="VI" URL="../PC subVIs/Remove Duplicates.vi"/>
+		<Item Name="Create Data Row.vi" Type="VI" URL="../PC subVIs/Create Data Row.vi"/>
+		<Item Name="Stat Bundles to Table.vi" Type="VI" URL="../PC subVIs/Stat Bundles to Table.vi"/>
+		<Item Name="Delete Stat Row.vi" Type="VI" URL="../PC subVIs/Delete Stat Row.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
