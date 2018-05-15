@@ -51,12 +51,9 @@
 			<Item Name="Remove Blanks (String Array).vi" Type="VI" URL="../RT subVIs/Remove Blanks (String Array).vi"/>
 		</Item>
 		<Item Name="Data Handling" Type="Folder">
-			<Item Name="Create Stat Array.vi" Type="VI" URL="../PC subVIs/Create Stat Array.vi"/>
 			<Item Name="Data2Stats.vi" Type="VI" URL="../PC subVIs/Data2Stats.vi"/>
-			<Item Name="Evaluate Loaded Stats.vi" Type="VI" URL="../RT subVIs/Evaluate Loaded Stats.vi"/>
 			<Item Name="Find Stat Bundle Indexes.vi" Type="VI" URL="../PC subVIs/Find Stat Bundle Indexes.vi"/>
 			<Item Name="Handle Stat Sections.vi" Type="VI" URL="../PC subVIs/Handle Stat Sections.vi"/>
-			<Item Name="Target in Stat Table.vi" Type="VI" URL="../PC subVIs/Target in Stat Table.vi"/>
 		</Item>
 		<Item Name="TCP" Type="Folder">
 			<Item Name="Event Mode.ctl" Type="VI" URL="../TCP/PC/Event Mode.ctl"/>
@@ -116,18 +113,11 @@
 		<Item Name="Gas Rack MAIN (PC).vi" Type="VI" URL="../Gas Rack MAIN (PC).vi"/>
 		<Item Name="Cal Date Valid.vi" Type="VI" URL="../PC subVIs/Cal Date Valid.vi"/>
 		<Item Name="Precision.vi" Type="VI" URL="../PC subVIs/Precision.vi"/>
-		<Item Name="ParameterSet2CmdCluster.vi" Type="VI" URL="../PC subVIs/ParameterSet2CmdCluster.vi"/>
+		<Item Name="ParameterSet2DesiredParameters.vi" Type="VI" URL="../PC subVIs/ParameterSet2DesiredParameters.vi"/>
 		<Item Name="CmdCluster2ParameterSet.vi" Type="VI" URL="../PC subVIs/CmdCluster2ParameterSet.vi"/>
-		<Item Name="Data2UniqueID.vi" Type="VI" URL="../PC subVIs/Data2UniqueID.vi"/>
-		<Item Name="UniqueID2Data.vi" Type="VI" URL="../PC subVIs/UniqueID2Data.vi"/>
 		<Item Name="CmdCluster2DesiredRow.vi" Type="VI" URL="../PC subVIs/CmdCluster2DesiredRow.vi"/>
-		<Item Name="Profile Step 2 Desired Parameters.vi" Type="VI" URL="../RT subVIs/Profile Step 2 Desired Parameters.vi"/>
-		<Item Name="Remove IDs from Data.vi" Type="VI" URL="../PC subVIs/Remove IDs from Data.vi"/>
 		<Item Name="NEW_Evaluate Loaded Stats.vi" Type="VI" URL="../PC subVIs/NEW_Evaluate Loaded Stats.vi"/>
 		<Item Name="DesiredStats2UniqueStats.vi" Type="VI" URL="../PC subVIs/DesiredStats2UniqueStats.vi"/>
-		<Item Name="UniqueID2StatID.vi" Type="VI" URL="../PC subVIs/UniqueID2StatID.vi"/>
-		<Item Name="Data2StatID.vi" Type="VI" URL="../PC subVIs/Data2StatID.vi"/>
-		<Item Name="Loaded Data Desired to Unique IDs.vi" Type="VI" URL="../PC subVIs/Loaded Data Desired to Unique IDs.vi"/>
 		<Item Name="New Stat Section with Sort.vi" Type="VI" URL="../PC subVIs/New Stat Section with Sort.vi"/>
 		<Item Name="Remove Duplicates.vi" Type="VI" URL="../PC subVIs/Remove Duplicates.vi"/>
 		<Item Name="Create Data Row.vi" Type="VI" URL="../PC subVIs/Create Data Row.vi"/>
@@ -135,6 +125,9 @@
 		<Item Name="Delete Stat Row.vi" Type="VI" URL="../PC subVIs/Delete Stat Row.vi"/>
 		<Item Name="Test Config Update.vi" Type="VI" URL="../PC subVIs/Test Config Update.vi"/>
 		<Item Name="Apply Precision to loaded file.vi" Type="VI" URL="../PC subVIs/Apply Precision to loaded file.vi"/>
+		<Item Name="Highlight Out of Tolerances.vi" Type="VI" URL="../PC subVIs/Highlight Out of Tolerances.vi"/>
+		<Item Name="Create Loaded Stat Bundle.vi" Type="VI" URL="../PC subVIs/Create Loaded Stat Bundle.vi"/>
+		<Item Name="DesiredRow2DesiredParameters.vi" Type="VI" URL="../PC subVIs/DesiredRow2DesiredParameters.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -3703,20 +3696,6 @@ DirectoryIndex index.htm
 			<Item Name="Command Cluster.ctl" Type="VI" URL="../TypeDef/Command Cluster.ctl"/>
 			<Item Name="Indirect FF PID Control.vi" Type="VI" URL="../RT subVIs/Indirect FF PID Control.vi"/>
 			<Item Name="Controller List.vi" Type="VI" URL="../TypeDef/Controller List.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Run_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Run_Dynamic.vi"/>
-			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
-			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RIO Gas Rack" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3735,7 +3714,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{342DB4AB-677F-4EB0-9DB4-BBED39EC0773}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">63</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RIO Gas Rack.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/NI_AB_PROJECTNAME.rtexe</Property>
