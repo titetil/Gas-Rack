@@ -126,6 +126,7 @@
 		<Item Name="Test Sequencer.vi" Type="VI" URL="../PC subVIs/Test Sequencer.vi"/>
 		<Item Name="Apply Desired to Imported Data.vi" Type="VI" URL="../PC subVIs/Apply Desired to Imported Data.vi"/>
 		<Item Name="Handle Tables after row deletion.vi" Type="VI" URL="../PC subVIs/Handle Tables after row deletion.vi"/>
+		<Item Name="Write Values and Check for Stabilization.vi" Type="VI" URL="../PC subVIs/Write Values and Check for Stabilization.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -3651,10 +3652,11 @@ DirectoryIndex index.htm
 		<Item Name="Graph Prep.vi" Type="VI" URL="../RT subVIs/Graph Prep.vi"/>
 		<Item Name="Freeze CMD PID.vi" Type="VI" URL="../RT subVIs/Freeze CMD PID.vi"/>
 		<Item Name="Handle Stabilization.vi" Type="VI" URL="../RT subVIs/Handle Stabilization.vi"/>
+		<Item Name="Get PID Settings.vi" Type="VI" URL="../RT subVIs/Get PID Settings.vi"/>
+		<Item Name="Create Tolerance Bands.vi" Type="VI" URL="../RT subVIs/Create Tolerance Bands.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -3713,7 +3715,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{342DB4AB-677F-4EB0-9DB4-BBED39EC0773}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RIO Gas Rack.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/NI_AB_PROJECTNAME.rtexe</Property>
