@@ -127,6 +127,9 @@
 		<Item Name="Apply Desired to Imported Data.vi" Type="VI" URL="../PC subVIs/Apply Desired to Imported Data.vi"/>
 		<Item Name="Handle Tables after row deletion.vi" Type="VI" URL="../PC subVIs/Handle Tables after row deletion.vi"/>
 		<Item Name="Write Values and Check for Stabilization.vi" Type="VI" URL="../PC subVIs/Write Values and Check for Stabilization.vi"/>
+		<Item Name="Test SequencerV2.vi" Type="VI" URL="../PC subVIs/Test SequencerV2.vi"/>
+		<Item Name="Parameter 1 Adjust.vi" Type="VI" URL="../PC subVIs/Parameter 1 Adjust.vi"/>
+		<Item Name="ProgramMode(PC).ctl" Type="VI" URL="../TypeDef/ProgramMode(PC).ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -388,7 +391,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.158</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.162</Property>
 		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;DeviceCode,758B;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
