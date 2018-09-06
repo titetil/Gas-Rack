@@ -130,6 +130,9 @@
 		<Item Name="Test SequencerV2.vi" Type="VI" URL="../PC subVIs/Test SequencerV2.vi"/>
 		<Item Name="Parameter 1 Adjust.vi" Type="VI" URL="../PC subVIs/Parameter 1 Adjust.vi"/>
 		<Item Name="ProgramMode(PC).ctl" Type="VI" URL="../TypeDef/ProgramMode(PC).ctl"/>
+		<Item Name="Test Type Disables.vi" Type="VI" URL="../PC subVIs/Test Type Disables.vi"/>
+		<Item Name="Handle Crashed Component Files.vi" Type="VI" URL="../PC subVIs/Handle Crashed Component Files.vi"/>
+		<Item Name="Excel Delete Unused Worksheets.vi" Type="VI" URL="../PC subVIs/Excel Delete Unused Worksheets.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -3718,7 +3721,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{342DB4AB-677F-4EB0-9DB4-BBED39EC0773}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RIO Gas Rack.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/NI_AB_PROJECTNAME.rtexe</Property>
